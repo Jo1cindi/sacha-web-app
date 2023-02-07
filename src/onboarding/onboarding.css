@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&family=Karla:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0e0ce;
+}
+/* Navbar */
+.navBar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    width: 10%;
+    height: 80%;
+    margin-left: 2rem;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+}
+.logo p{
+    margin-left: 5px;
+    color: #474747;
+}
+.logo-box{
+    width: 40%;
+    height: 100%;
+}
+.logo-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-links{
+  margin-top: 10px;
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #474747;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+.nav-btns{
+    width: 20%;
+    height: 100%;
+    margin-right: 2rem;
+}
+.nav-btns input{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.sign-up-btn{
+    margin-right: 15px;
+    color: #474747;
+    background-color: #f2af29;
+    border: none;
+    margin-top: 10px;
+}
+.log-in-btn{
+    color: #e0e0ce;
+    background-color: #ad343e;
+    border: none;
+    margin-top: 10px;
+}
